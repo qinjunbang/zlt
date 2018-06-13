@@ -928,10 +928,7 @@ li {
 .column h3{
   margin-bottom: 30px;
 }
-.text-center{
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
 /* ==============================
    Top Rated Recipe styles
    ============================== */
@@ -3125,18 +3122,18 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
    Footer  styles
    ============================== */
 #footer {
-  background: #222223;
+  background: #1B1B1B;
   padding-bottom: 0;
   overflow-y: hidden;
 }
 .footer-widget .title {
-  margin-bottom: 29px;
+  margin-bottom: 30px;
 }
 .footer-widget .title h3 span {
   display: block;
   font-size: 18px;
   font-weight: 700;
-  color: #8DC63F;
+  color: #fefefe;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
@@ -3159,10 +3156,10 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
   float: right;
   height: 5000px;
   z-index: 1;
-  border: 1px solid #2C2C2C;
+  /*border: 1px solid #2C2C2C;*/
 }
 .footer-widget.email-newsletter p {
-  color: #818181;
+  color: #fefefe;
 }
 .footer-widget.email-newsletter form input {
   width: 100%;
@@ -3230,7 +3227,7 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
   padding-left: 30px;
 }
 .footer-widget.poplular-recipe ul li .content-box h3 {
-  color: #818181;
+  color: #fefefe;
   font-size: 15px;
   text-transform: capitalize;
   margin: 0;
@@ -3275,7 +3272,7 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
   /*border-top: 1px solid #323232;*/
 }
 .footer-widget .link-list a {
-  color: #818181;
+  color: #fefefe;
   text-transform: capitalize;
   line-height: 47px;
   display: block;
@@ -3315,16 +3312,26 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
 }
 .footer-widget .contact-infos li .text-box {
   padding-left: 18px;
-  color: #818181;
+  color: #fefefe;
 }
 .footer-widget .contact-infos li .text-box b {
   font-weight: bold;
   color: #82868A;
 }
+/*底部*/
+.bottom-baro {
+  padding:  0;
+  background: #1B1B1B;
+}
+.bottom-baro p {
+  margin: 0;
+  color: #fefefe;
+}
+
 .bottom-bar {
-  padding: 31px 0;
+  padding: 10px 0;
   background: #181818;
-  border-top: 1px solid #2A2A2B;
+
 }
 .bottom-bar p {
   margin: 0;
@@ -3376,7 +3383,7 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
    ============================== */
 .inner-banner {
   padding: 63px 0;
-  background: #63b40d url(../images/inner-banner.jpg) center center no-repeat;
+  background: #63b40d url(../images/ZLT.png) center center no-repeat;
   background-size: cover;
 }
 .inner-banner .box {
