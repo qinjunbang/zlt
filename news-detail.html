@@ -324,13 +324,14 @@
 <script src="js/data.js"></script>
 
 <script>
-	console.log("window", window.location);
-	console.log("news", news);
+
 	var urlReq = getRequest();
     var id = urlReq.id;
     var newsData = getNewsDetail(id);
     createHtml(newsData);
-	//获取url参数
+
+
+	//  获取url参数
     function getRequest () {
         var myRequest = {};
         var url = window.location.search;
@@ -348,6 +349,7 @@
         return myRequest;
     }
 
+    // 获取这条新闻的信息
     function getNewsDetail (id) {
         var data = "";
         for (var i = 0; i < news.length; i++) {
@@ -358,12 +360,8 @@
 		return data;
 	}
 
+    //  页面赋值
 	function createHtml(data) {
-        console.log("data", data);
-
-
-
-
         $(".news-title").text(data.title);
         $(".add-time").text(data.add_time);
         $(".img img").text(data.img);
