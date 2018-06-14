@@ -3531,3 +3531,10 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
 .single-post-page .image-caption-box .caption-box-img {
   width: 248px;
 }
+
+/*手机*/
+@media screen and (max-width: 480px) {
+  .column {
+    padding: 0 25px;
+  }
+}
