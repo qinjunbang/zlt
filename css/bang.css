@@ -44,7 +44,7 @@
 
 /*新闻详情*/
 .news-content {
-    min-height: 600px;
+    min-height: 800px;
     margin-top: 70px;
 }
 .category-list {
@@ -52,6 +52,9 @@
 }
 .category-list li {
     margin: 0 auto 12px;
+}
+.category-list li.active a {
+    background: #aeaeae;
 }
 .category-list li a {
     font-size: 18px;
@@ -77,4 +80,36 @@
 }
 .news-detail-text .content {
     margin-top: 70px;
+}
+
+/*新闻类别页面*/
+.news-top {
+    padding: 20px 5px;
+    background: #eee;
+}
+.news-top .news-title {
+    margin-top: 10px;
+}
+.news-top  .add-time {
+    font-size: 16px;
+    color: #909090;
+    margin: 24px 0;
+}
+.news-top  .summary {
+    max-height: 128px;
+    overflow: hidden;
+}
+.news-category-list {
+    margin-top: 20px;
+}
+.news-category-list  li {
+    margin-top: 10px;
+}
+.news-category-list  li a {
+    font-size: 16px;
+    color: #000;
+}
+.news-category-list  li span {
+    font-size: 16px;
+    color: #909090;
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>新闻详情</title>
+	<title>新闻分类</title>
 	<!-- viewport meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -112,24 +112,38 @@
 	<div class="thm-container">
 		<div class="row news-content">
 			<div class="col-sm-3">
-				<ul class="list-unstyled category-list">
-					<li><a href="./news-category.html?type=tab1">重点关注</a></li>
-					<li><a href="./news-category.html?type=tab2">重点关注</a></li>
-					<li><a href="./news-category.html?type=tab3">重点关注</a></li>
-					<li><a href="./news-category.html?type=tab4">重点关注</a></li>
+				<ul class="list-unstyled category-list" role="tablist">
+					<li  role="presentation"><a href="#tab1" role="tab" data-toggle="tab">重点关注</a></li>
+					<li  role="presentation"><a href="#tab2" role="tab" data-toggle="tab">重点关注</a></li>
+					<li  role="presentation"><a href="#tab3" role="tab" data-toggle="tab">重点关注</a></li>
+					<li  role="presentation"><a href="#tab4" role="tab" data-toggle="tab">重点关注</a></li>
 				</ul>
 			</div>
 			<div class="col-sm-9">
-				<div class="news-detail-text">
-					<h1 class="news-title">我是新闻标题</h1>
-					<p class="add-time">2018-06-12</p>
-
-					<div class="img">
-						<img src="./images/blog/news1.jpg" alt="" class="img-responsive">
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="tab1">
+						<div class="news-top  row">
+                            <div class="col-sm-4">
+                                <img src="./images/blog/news1.jpg" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-sm-8">
+                                <h2 class="news-title nowrap">掌里通智慧城市，一个让生活智能化的平台</h2>
+                                <p class="add-time">2018-06-14</p>
+                                <p class="summary">一个让生活智能化的平台一个让生活智能化的平台</p>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled news-category-list row">
+                            <li><a href="">掌里通智慧城市，一个让生活智能化的平台</a> <span class="pull-right">2018-06-14</span></li>
+                            <li><a href="">掌里通智慧城市，一个让生活智能化的平台</a> <span class="pull-right">2018-06-14</span></li>
+                            <li><a href="">掌里通智慧城市，一个让生活智能化的平台</a> <span class="pull-right">2018-06-14</span></li>
+                            <li><a href="">掌里通智慧城市，一个让生活智能化的平台</a> <span class="pull-right">2018-06-14</span></li>
+                            <li><a href="">掌里通智慧城市，一个让生活智能化的平台</a> <span class="pull-right">2018-06-14</span></li>
+                        </ul>
 					</div>
-					<p class="content">新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容</p>
+					<div role="tabpanel" class="tab-pane" id="tab2">重点关注·2</div>
+					<div role="tabpanel" class="tab-pane" id="tab3">重点关注·3</div>
+					<div role="tabpanel" class="tab-pane" id="tab4">重点关注·4</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
@@ -325,10 +339,24 @@
 
 <script>
 
-	var urlReq = getRequest();
-    var id = urlReq.id;
-    var newsData = getNewsDetail(id);
-    createHtml(newsData);
+    // 跳转过来的
+	var urlType = getRequest();
+    var type = urlType.type;
+
+
+    if (type) {
+
+        $(".category-list li a").each(function () {
+            var id = $(this).attr("href");
+            // 根据带过来的参数，选择对应的菜单
+            if (id === "#" + type) {
+                $(this).parent("li").addClass("active").siblings().removeClass("active");
+            }
+        });
+
+        // 显示菜单对应的内容
+        $("#" + type).addClass("active").siblings().removeClass("active");
+    }
 
 
 	//  获取url参数
@@ -348,6 +376,7 @@
 
         return myRequest;
     }
+
 
     // 获取这条新闻的信息
     function getNewsDetail (id) {
