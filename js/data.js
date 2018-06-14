@@ -22,7 +22,7 @@ var news = [
     }
 ];
 
-var newsType = [
+var newsTypes = [
     {
         id: 0,
         name: "重点关注"

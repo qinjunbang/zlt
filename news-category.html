@@ -113,7 +113,7 @@
 		<div class="row news-content">
 			<div class="col-sm-3">
 				<ul class="list-unstyled category-list" role="tablist">
-					<li  role="presentation"><a href="#tab1" role="tab" data-toggle="tab">重点关注</a></li>
+					<li  class="active" role="presentation"><a href="#tab1" role="tab" data-toggle="tab">重点关注</a></li>
 					<li  role="presentation"><a href="#tab2" role="tab" data-toggle="tab">重点关注</a></li>
 					<li  role="presentation"><a href="#tab3" role="tab" data-toggle="tab">重点关注</a></li>
 					<li  role="presentation"><a href="#tab4" role="tab" data-toggle="tab">重点关注</a></li>
@@ -344,8 +344,8 @@
     var type = urlType.type;
 
 
-    if (type) {
-
+    if (type && type !== '') {
+        console.log("进来了", type);
         $(".category-list li a").each(function () {
             var id = $(this).attr("href");
             // 根据带过来的参数，选择对应的菜单
@@ -389,13 +389,94 @@
 		return data;
 	}
 
-    //  页面赋值
-	function createHtml(data) {
-        $(".news-title").text(data.title);
-        $(".add-time").text(data.add_time);
-        $(".img img").text(data.img);
-        $(".content").text(data.content);
-	}
+    // 创建菜单
+    function createCategoryHtml () {
+        var htmlText = [];
+        for (var i = 0; i < newsTypes.length; i++) {
+            if (i < 1) {
+                htmlText.push("<li  class='active' role='presentation'>");
+            } else {
+                htmlText.push("<li  role='presentation'>");
+            }
+
+            htmlText.push("<a href='#tab"+ (i+1) + "' role='tab' data-id='"+ newsTypes[i].id +"' data-toggle='tab'>");
+            htmlText.push(newsTypes[i].name);
+            htmlText.push("</a>");
+            htmlText.push("</li>");
+        }
+
+        $(".category-list").html(htmlText.join(''));
+
+
+    }
+    // 创建所有分类菜单
+    createCategoryHtml();
+
+    // 菜单点击事件
+    $(".category-list").on("click", "a", function () {
+        console.log($(this).attr("href"));
+        var id = $(this).attr("href");
+        var type = $(this).attr("data-id");
+        var data = getNewsData(type);
+
+        createNewsDetailHtml(data, id);
+
+    });
+
+    // 创建新闻列表
+    function createNewsDetailHtml (data, id) {
+        var htmlText = [];
+        if (data.length > 0) {
+            htmlText.push("<div class='news-top  row'>");
+            htmlText.push("<div class='col-sm-4'>");
+            htmlText.push("<img src='"+ data[0].img +"' alt='' class='img-responsive'>");
+            htmlText.push("</div>");
+            htmlText.push("<div class='col-sm-8'>");
+            htmlText.push("<h2 class='news-title nowrap'>");
+            htmlText.push(data[0].title);
+            htmlText.push("</h2>");
+            htmlText.push("<p class='add-time'>");
+            htmlText.push(data[0].add_time);
+            htmlText.push("</p>");
+            htmlText.push("<p class='summary'>");
+            htmlText.push(data[0].summary);
+            htmlText.push("</p>");
+            htmlText.push("</div>");
+            htmlText.push("</div>");
+
+
+            htmlText.push("<ul class='list-unstyled news-category-list row'>");
+            for (var i = 1; i < data.length; i++) {
+                htmlText.push("<li>");
+                htmlText.push("<a href=''>");
+                htmlText.push(data[i].title);
+                htmlText.push("</a>");
+                htmlText.push("<span class='pull-right'>");
+                htmlText.push(data[i].add_time);
+                htmlText.push("</span>");
+                htmlText.push("</li>");
+            }
+            htmlText.push("</ul>");
+
+            $(id).html(htmlText.join(''));
+        } else {
+            $(id).html("<p class='text-center'>没有数据</p>")
+        }
+
+    }
+
+    // 获取数据
+    function getNewsData(id) {
+        var data = [];
+        for (var key in news) {
+            if (id == key) {
+                data.push(news[key]);
+            }
+        }
+
+        return data;
+    }
+
 </script>
 </body>
 </html>
