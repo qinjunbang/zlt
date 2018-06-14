@@ -96,6 +96,8 @@
     margin: 24px 0;
 }
 .news-top  .summary {
+    font-size: 16px;
+    color: #000;
     max-height: 128px;
     overflow: hidden;
 }

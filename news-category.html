@@ -338,6 +338,8 @@
 <script src="js/data.js"></script>
 
 <script>
+    // 创建所有分类菜单
+    createCategoryHtml();
 
     // 跳转过来的
 	var urlType = getRequest();
@@ -349,8 +351,13 @@
         $(".category-list li a").each(function () {
             var id = $(this).attr("href");
             // 根据带过来的参数，选择对应的菜单
-            if (id === "#" + type) {
+            if (id == "#" + type) {
                 $(this).parent("li").addClass("active").siblings().removeClass("active");
+                var id = $(this).attr("data-id");
+                console.log("od", id);
+                var data = getNewsData(id);
+                console.log("data", data);
+                createNewsDetailHtml(data, "#" + type);
             }
         });
 
@@ -409,8 +416,7 @@
 
 
     }
-    // 创建所有分类菜单
-    createCategoryHtml();
+
 
     // 菜单点击事件
     $(".category-list").on("click", "a", function () {
@@ -427,6 +433,7 @@
     function createNewsDetailHtml (data, id) {
         var htmlText = [];
         if (data.length > 0) {
+            htmlText.push("<a href='news-detail.html?id="+ data[0].id +"'>");
             htmlText.push("<div class='news-top  row'>");
             htmlText.push("<div class='col-sm-4'>");
             htmlText.push("<img src='"+ data[0].img +"' alt='' class='img-responsive'>");
@@ -443,12 +450,13 @@
             htmlText.push("</p>");
             htmlText.push("</div>");
             htmlText.push("</div>");
+            htmlText.push("</a>");
 
 
             htmlText.push("<ul class='list-unstyled news-category-list row'>");
             for (var i = 1; i < data.length; i++) {
                 htmlText.push("<li>");
-                htmlText.push("<a href=''>");
+                htmlText.push("<a href='news-detail.html?id="+ data[i].id +"'>");
                 htmlText.push(data[i].title);
                 htmlText.push("</a>");
                 htmlText.push("<span class='pull-right'>");

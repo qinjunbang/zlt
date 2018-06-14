@@ -367,6 +367,29 @@
         $(".img img").text(data.img);
         $(".content").text(data.content);
 	}
+
+    // 创建菜单
+    function createCategoryHtml () {
+        var htmlText = [];
+        for (var i = 0; i < newsTypes.length; i++) {
+            if (i < 1) {
+                htmlText.push("<li  class='active' role='presentation'>");
+            } else {
+                htmlText.push("<li  role='presentation'>");
+            }
+
+            htmlText.push("<a href='./news-category.html?type=tab"+ (i+1) + "' role='tab' data-id='"+ newsTypes[i].id +"'>");
+            htmlText.push(newsTypes[i].name);
+            htmlText.push("</a>");
+            htmlText.push("</li>");
+        }
+
+        $(".category-list").html(htmlText.join(''));
+
+
+    }
+    // 创建所有分类菜单
+    createCategoryHtml();
 </script>
 </body>
 </html>
