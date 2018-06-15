@@ -285,7 +285,7 @@
 			<div class="row">
 				<div class="col-md-6 col-xs-12 column">
 					<h3>新闻咨询</h3>
-					<ul>
+					<ul class="news1">
 						<li><a href="">掌里通智慧城市布局手机点餐系统</a><span class="pull-right">2018-06-12</span></li>
 						<li><a href="">掌里通智慧城市布局手机点餐系统</a><span class="pull-right">2018-06-12</span></li>
 						<li><a href="">掌里通智慧城市布局手机点餐系统</a><span class="pull-right">2018-06-12</span></li>
@@ -296,7 +296,7 @@
 				</div>
 				<div class="col-md-6 col-xs-12 column">
 					<h3>最新动态</h3>
-					<ul>
+					<ul class="news2">
 						<li><a href="">掌里通智慧城市布局手机点餐系统</a><span class="pull-right">2018-06-12</span></li>
 						<li><a href="">掌里通智慧城市布局手机点餐系统</a><span class="pull-right">2018-06-12</span></li>
 						<li><a href="">掌里通智慧城市布局手机点餐系统</a><span class="pull-right">2018-06-12</span></li>
@@ -555,7 +555,40 @@
 
 <!-- theme custom js  -->
 <script src="js/main.js"></script>
-<script></script>
+<!-- 数据  -->
+<script src="js/data.js"></script>
+<script>
+	console.log("news", news);
+//	创建新闻列表html
+	function createNewsListHtml(data, ele) {
+	    var htmlText = [];
+	    for (var i = 0; i < data.length; i++) {
+	        htmlText.push("<li>");
+	        htmlText.push("<a href='news-detail.html?id="+ data[i].id +"' target='_blank'>");
+	        htmlText.push(data[i].title);
+	        htmlText.push("</a>");
+	        htmlText.push("<span class='pull-right'>");
+	        htmlText.push(data[i].add_time);
+	        htmlText.push("</span>");
+		}
+		$(ele).html(htmlText.join(''));
+	}
 
+//	获取新闻动态
+	function getNewsListData (id) {
+	    var data = [];
+	    for (var i = 0; i < news.length; i++) {
+	        if (news[i].category == id) {
+	            data.push(news[i]);
+			}
+		}
+		return data;
+	}
+	var data1 = getNewsListData(0);
+	var data2 = getNewsListData(1);
+
+    createNewsListHtml(data1, ".news1");
+    createNewsListHtml(data2, ".news2");
+</script>
 </body>
 </html>
