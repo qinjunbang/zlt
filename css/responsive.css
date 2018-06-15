@@ -233,6 +233,23 @@
 	section.city {
 		height: auto;
 	}
+
+	.news-detail-text {
+		margin-left: 0;
+	}
+	.news-title {
+		font-size: 18px;
+	}
+
+    .nav-holder > .nav-footer {
+        width: 30vw !important;
+        height: 32vh !important;
+    }
+    .nav-holder .nav-footer ul.nav > li > a > button{
+        border: none;
+        margin-left: -20px;
+    }
+
 }
 @media (max-width: 375px) {
 	#header .logo {width: 75%;}

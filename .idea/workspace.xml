@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="466b4b7b-c853-4d11-8a0b-1c0dbaef127f" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AboutUs.html" afterPath="$PROJECT_DIR$/AboutUs.html" />
-      <change beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change beforePath="$PROJECT_DIR$/css/bang.css" afterPath="$PROJECT_DIR$/css/bang.css" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="$PROJECT_DIR$/css/responsive.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/editors.html" afterPath="$PROJECT_DIR$/editors.html" />
-      <change beforePath="$PROJECT_DIR$/images/404-bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/Booking5.jpg" afterPath="$PROJECT_DIR$/images/Booking5.jpg" />
-      <change beforePath="$PROJECT_DIR$/images/ZLT.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/blog/banner1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/contact-sidebar-image.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/footer-newsletter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
-      <change beforePath="$PROJECT_DIR$/images/popular-post-s1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/popular-post-s2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/popular-post-s3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/popular-post1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/popular-post3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slider/Booking8.png" afterPath="$PROJECT_DIR$/images/slider/Booking8.png" />
-      <change beforePath="$PROJECT_DIR$/images/slider/Booking81.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/tooopen.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/news-category.html" afterPath="$PROJECT_DIR$/news-category.html" />
+      <change beforePath="$PROJECT_DIR$/js/data.js" afterPath="$PROJECT_DIR$/js/data.js" />
       <change beforePath="$PROJECT_DIR$/news-detail.html" afterPath="$PROJECT_DIR$/news-detail.html" />
-      <change beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
-      <change beforePath="$PROJECT_DIR$/recipe-v1.html" afterPath="$PROJECT_DIR$/recipe-v1.html" />
-      <change beforePath="$PROJECT_DIR$/single-recipe.html" afterPath="$PROJECT_DIR$/single-recipe.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -130,8 +107,8 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="430" column="3" lean-forward="false" selection-start-line="430" selection-start-column="3" selection-end-line="434" selection-end-column="7" />
+            <state relative-caret-position="1943">
+              <caret line="235" column="0" lean-forward="true" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,7 +122,6 @@
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -223,7 +199,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="167" />
     <option name="y" value="112" />
     <option name="width" value="1050" />
@@ -328,15 +304,15 @@
       <workItem from="1528856134935" duration="20005000" />
       <workItem from="1528938577021" duration="13367000" />
       <workItem from="1528957345460" duration="9053000" />
-      <workItem from="1529024246167" duration="22093000" />
+      <workItem from="1529024246167" duration="22552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64518000" />
+    <option name="totallyTimeSpent" value="64977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -840,15 +816,14 @@
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="430" column="3" lean-forward="false" selection-start-line="430" selection-start-column="3" selection-end-line="434" selection-end-column="7" />
+        <state relative-caret-position="1943">
+          <caret line="235" column="0" lean-forward="true" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
           <folding />
         </state>
       </provider>
