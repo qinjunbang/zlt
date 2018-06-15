@@ -95,7 +95,9 @@ li {
 .mb0 {
   margin-bottom: 0 !important;
 }
-
+.container h3 {
+  margin: 30px 0;
+}
 
 .thm-container {
   max-width: 1170px;
@@ -866,7 +868,6 @@ section.city {
   margin:20px 0px 25px 0px ;
 }
 .single-recent-recipes .top-meta .author {
-  text-align: center;
   color: #AEAEAE;
   font-size: 13px;
 }
@@ -3530,6 +3531,23 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
 .single-service-page .image-caption-box .caption-box-img,
 .single-post-page .image-caption-box .caption-box-img {
   width: 248px;
+}
+.company-img {
+  margin-top: 48px;
+}
+.company-text {
+  margin-top: 58px;
+
+}
+.company-text h2,
+.company-text p {
+  color: #fff;
+}
+.company-text p {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: justify;
 }
 
 /*手机*/
