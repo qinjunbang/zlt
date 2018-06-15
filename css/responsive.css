@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
 	.thm-container {
-		padding: 0 15px;
+		padding: 0 25px;
 	}
 	.top-rated-recipe .single-recent-recipes .img-box, 
 	.top-rated-recipe .single-recent-recipes .content-box {
@@ -69,11 +69,17 @@
 		padding-left: 30px;
 	}
 	.single-blog-post {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.footer-widget {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
+        text-align:center;
 	}
+    .footer-widget .link-list {
+        width: 100%;
+        float: inherit;
+    }
+
 	.footer-widget .pl-30 {
 		padding-left: 0;
 	}
@@ -371,6 +377,7 @@
 	.nav-holder .nav-header {
 		display: inline-block;
 		float: right;
+		padding: 35px 12px;
 		padding: 26px 0px;
 	}
 	.nav-holder .nav-footer {
@@ -448,8 +455,8 @@
 
 @media (max-width: 480px) {
 	.nav-holder > .nav-footer {
-		width: 38vw !important;
-		height: 29vh !important;
+		width: 34vw !important;
+		height: 19vh !important;
 	}
     .nav-holder .nav-footer ul.nav > li > a > button{
         background: #0D0C0B;
