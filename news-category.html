@@ -343,8 +343,16 @@
 <script src="js/data.js"></script>
 
 <script>
+
     // 创建所有分类菜单
     createCategoryHtml();
+
+    // 默认请求第一类数据
+    var id = $(".category-list li.active a ").attr("data-id");
+    console.log("od", id);
+    var data = getNewsData(id);
+    console.log("data", data);
+    createNewsDetailHtml(data, "#tab1");
 
     // 跳转过来的
 	var urlType = getRequest();
@@ -436,6 +444,7 @@
 
     // 创建新闻列表
     function createNewsDetailHtml (data, id) {
+        console.log("data", data);
         var htmlText = [];
         if (data.length > 0) {
             htmlText.push("<a href='news-detail.html?id="+ data[0].id +"'>");
@@ -470,6 +479,7 @@
                 htmlText.push("</li>");
             }
             htmlText.push("</ul>");
+            console.log(htmlText.join(''));
 
             $(id).html(htmlText.join(''));
         } else {
@@ -480,13 +490,15 @@
 
     // 获取数据
     function getNewsData(id) {
+        console.log("id", id);
         var data = [];
         for (var key in news) {
-            if (id == key) {
+            if (id == news[key].category) {
+                console.log("进来了");
                 data.push(news[key]);
             }
         }
-
+		console.log();
         return data;
     }
 

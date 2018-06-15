@@ -233,14 +233,14 @@
 	section.city {
 		height: auto;
 	}
-<<<<<<< HEAD
+
 	.news-detail-text {
 		margin-left: 0;
 	}
 	.news-title {
 		font-size: 18px;
 	}
-=======
+
     .nav-holder > .nav-footer {
         width: 30vw !important;
         height: 32vh !important;
@@ -249,10 +249,10 @@
         border: none;
         margin-left: -20px;
     }
->>>>>>> 899653e573e50bcac9441b8da35de0f663c35a44
+
 }
 @media (max-width: 375px) {
-	#header .logo {width: 75%;}
+	#header .logo {width: 50%;}
     .nav-holder {width: 18%;}
     .nav-holder > .nav-footer {left: auto;right: 0;}
 }
@@ -360,7 +360,7 @@
 	.nav-holder .nav-header {
 		display: inline-block;
 		float: right;
-		padding: 20px 0px;
+		padding: 26px 0px;
 	}
 	.nav-holder .nav-footer {
 		display: none;
