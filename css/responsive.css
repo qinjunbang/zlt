@@ -233,9 +233,19 @@
 	section.city {
 		height: auto;
 	}
+    .nav-holder > .nav-footer {
+        width: 30vw !important;
+        height: 32vh !important;
+    }
+    .nav-holder .nav-footer ul.nav > li > a > button{
+        border: none;
+        margin-left: -20px;
+    }
 }
 @media (max-width: 375px) {
-	#header .logo {width: 75%;}	
+	#header .logo {width: 75%;}
+    .nav-holder {width: 18%;}
+    .nav-holder > .nav-footer {left: auto;right: 0;}
 }
 @media (max-width: 320px) {
 	.main-menu-wrapper .free-qoute-button a {
@@ -455,13 +465,7 @@
 
 }
 
-@media (max-width: 480px) {
-	.nav-holder > .nav-footer {
-		width: 30vw !important;
-		height: 32vh !important;
-	}
-}
+
 @media (max-width: 375px) {
-	.nav-holder {width: 18%;}
-	.nav-holder > .nav-footer {left: auto;right: 0;}
+
 }
