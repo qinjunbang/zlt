@@ -2344,11 +2344,13 @@ section.city {
   margin-bottom: 10px;
   transition: all .3s ease;
 }
-.single-sidebar-widget .tag-cloud li a:hover {
+.single-sidebar-widget .tag-cloud li a:hover,
+.single-sidebar-widget .tag-cloud li.active a {
   background: #FF8C04;
   color: #fff;
   border-color: #FF8C04;
 }
+
 /* ==============================
    Contact  styles
    ============================== */
@@ -3567,4 +3569,8 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
   .column {
     padding: 0 25px;
   }
+  .dialog {
+    height: auto;
+  }
+
 }
