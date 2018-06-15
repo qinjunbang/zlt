@@ -220,6 +220,19 @@
 	.browse-recipe .has-side-background {width: 100%;}
 	.plupload_wrapper {min-width: 100%;}
 	.contact-form button {float: none !important;}
+	.sy-box .img-box img {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.sy-box .author {
+		text-align: center;
+	}
+	.column {
+		padding: 0 32px;
+	}
+	section.city {
+		height: auto;
+	}
 }
 @media (max-width: 375px) {
 	#header .logo {width: 75%;}	
@@ -344,6 +357,12 @@
 		padding-bottom: 0;
 		display: block !important;
 	}
+	.nav-holder > .nav-footer ul > li button{
+		background: #0D0C0B;
+		width: 70px;
+		height: 35px;
+		border-radius: 10px;
+	}
 	.nav-holder .nav-footer ul.nav > li > a {
 		padding: 9px 26px;
 	}
@@ -438,7 +457,7 @@
 
 @media (max-width: 480px) {
 	.nav-holder > .nav-footer {
-		width: 100vw !important;
+		width: 30vw !important;
 		height: 32vh !important;
 	}
 }
