@@ -249,7 +249,17 @@
         border: none;
         margin-left: -20px;
     }
-
+	.news-list {
+		width: 100%;
+		padding: 0 20px;
+	}
+	.news-list .news-body {
+		width: 100%;
+	}
+	.news-list .news-img img {
+		width: 100%;
+		height: auto;
+	}
 }
 @media (max-width: 375px) {
 	#header .logo {width: 50%;}

@@ -126,26 +126,29 @@
                         <h2><span>关于掌里通</span></h2>
                     </div>
                     <div class="tag-cloud">
-                        <ul>
-                            <li><a href="#">加入我们</a></li>
-                            <li><a href="#">联系我们</a></li>
-                            <li><a href="#">意见反馈</a></li>
-
+                        <ul class="list-unstyled" role="tablist">
+                            <li  class="active" role="presentation"><a href="#tab1" role="tab" data-toggle="tab">加入我们</a></li>
+                            <li  role="presentation"><a href="#tab2" role="tab" data-toggle="tab">联系我们</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-10 pull-right has-side-background">
-
-                <div class="single-post-wrapper">
-
-                    <article class="single-blog-post img-cap-effect">
-                        <div class="img-box">
-                            <img src="images/blog-page/1.jpg" alt="Awesome Image"/>
-                            <!--遮罩层-->
+                <div class="tab-content">
+                    <!--加入我们内容-->
+                    <div role="tabpanel" class="tab-pane active" id="tab1">
+                        <div class="single-post-wrapper">
+                            <article class="single-blog-post img-cap-effect">
+                                <div class="img-box">
+                                    <img src="images/blog-page/1.jpg" alt="Awesome Image"/>
+                                    <!--遮罩层-->
+                                </div>
+                            </article>
+                            <p>文字信息待补充！！！</p>
                         </div>
-                    </article>
-                    <p>文字信息待补充！！！</p>
+                    </div>
+                    <!--联系我们-->
+                    <div role="tabpanel" class="tab-pane" id="tab2">重点关注2</div>
                 </div>
             </div>
         </div>
