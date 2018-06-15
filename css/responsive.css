@@ -456,7 +456,7 @@
 @media (max-width: 480px) {
 	.nav-holder > .nav-footer {
 		width: 34vw !important;
-		height: 19vh !important;
+		height: 31vh !important;
 	}
     .nav-holder .nav-footer ul.nav > li > a > button{
         background: #0D0C0B;
@@ -478,6 +478,9 @@
     }
     .news1 li a, .news2 li a {
        max-width: 200px;
+    }
+    .recent-recipes p, .recent-recipes h4{
+        padding:0  20px;
     }
 
 }
