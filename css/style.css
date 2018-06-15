@@ -514,7 +514,7 @@ li {
    header styles
    ============================== */
 #header .logo {
-  padding: 23px 0;
+  padding: 20px 0;
 }
 #header.stricky-fixed {
   background: #0D0C0B;
@@ -3409,7 +3409,7 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
    ============================== */
 .inner-banner {
   padding: 63px 0;
-  background: #63b40d url(../images/logo.jpg) center center no-repeat;
+  background: url(../images/logo.jpg) center center no-repeat;
   background-size: cover;
 }
 .inner-banner .box {
