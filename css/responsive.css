@@ -69,11 +69,17 @@
 		padding-left: 30px;
 	}
 	.single-blog-post {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.footer-widget {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
+        text-align:center;
 	}
+    .footer-widget .link-list {
+        width: 100%;
+        float: inherit;
+    }
+
 	.footer-widget .pl-30 {
 		padding-left: 0;
 	}
@@ -252,7 +258,10 @@
 
 }
 @media (max-width: 375px) {
-	#header .logo {width: 75%;}
+	#header .logo {width: 50%;}
+    .nav-holder {width: 18%;}
+    .nav-holder > .nav-footer {left: auto;right: 0;}
+
 }
 @media (max-width: 320px) {
 	.main-menu-wrapper .free-qoute-button a {
@@ -359,6 +368,7 @@
 		display: inline-block;
 		float: right;
 		padding: 35px 12px;
+		padding: 26px 0px;
 	}
 	.nav-holder .nav-footer {
 		display: none;
