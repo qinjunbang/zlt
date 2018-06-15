@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="466b4b7b-c853-4d11-8a0b-1c0dbaef127f" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="$PROJECT_DIR$/css/responsive.css" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,12 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="139">
+              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="724">
-              <caret line="476" column="18" lean-forward="false" selection-start-line="476" selection-start-column="18" selection-end-line="476" selection-end-column="18" />
+              <caret line="482" column="1" lean-forward="true" selection-start-line="482" selection-start-column="1" selection-end-line="482" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -140,8 +142,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="556" column="17" lean-forward="false" selection-start-line="556" selection-start-column="17" selection-end-line="556" selection-end-column="17" />
+            <state relative-caret-position="650">
+              <caret line="3582" column="3" lean-forward="true" selection-start-line="3582" selection-start-column="3" selection-end-line="3582" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -161,6 +163,7 @@
       <find>.inner-banner</find>
       <find>recent-recipes</find>
       <find>&gt;&gt;&gt;</find>
+      <find>news1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,7 +180,6 @@
         <option value="E:/index/index.html" />
         <option value="$PROJECT_DIR$/editors.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/single-recipe.html" />
         <option value="$PROJECT_DIR$/news-detail.html" />
         <option value="$PROJECT_DIR$/recipe-v1.html" />
@@ -185,6 +187,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/AboutUs.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/news.html" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
       </list>
     </option>
@@ -300,12 +303,12 @@
       <workItem from="1528856134935" duration="20005000" />
       <workItem from="1528938577021" duration="13367000" />
       <workItem from="1528957345460" duration="9053000" />
-      <workItem from="1529024246167" duration="27896000" />
+      <workItem from="1529024246167" duration="28792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70321000" />
+    <option name="totallyTimeSpent" value="71217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -715,14 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single-recipe.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -804,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="556" column="17" lean-forward="false" selection-start-line="556" selection-start-column="17" selection-end-line="556" selection-end-column="17" />
+        <state relative-caret-position="650">
+          <caret line="3582" column="3" lean-forward="true" selection-start-line="3582" selection-start-column="3" selection-end-line="3582" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -813,8 +808,18 @@
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="724">
-          <caret line="476" column="18" lean-forward="false" selection-start-line="476" selection-start-column="18" selection-end-line="476" selection-end-column="18" />
+          <caret line="482" column="1" lean-forward="true" selection-start-line="482" selection-start-column="1" selection-end-line="482" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

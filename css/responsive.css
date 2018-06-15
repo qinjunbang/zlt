@@ -476,6 +476,10 @@
     .nav-holder .nav-footer ul.nav > li {
         margin: 0;
     }
+    .news1 li a, .news2 li a {
+       max-width: 200px;
+    }
+
 }
 @media (max-width: 375px) {
 	.nav-holder {width: 25%;}

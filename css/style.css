@@ -3564,6 +3564,14 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
   line-height: 32px;
   text-align: justify;
 }
+.news1 li a, .news2 li a {
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
 
 /*手机*/
 @media screen and (max-width: 480px) {
