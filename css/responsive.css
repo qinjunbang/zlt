@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
 	.thm-container {
-		padding: 0 25px;
+		padding: 0 20px;
 	}
 	.top-rated-recipe .single-recent-recipes .img-box, 
 	.top-rated-recipe .single-recent-recipes .content-box {
@@ -487,8 +487,41 @@
     .recent-recipes p, .recent-recipes h4{
         padding:0  20px;
     }
+    .browse-recipe .single-sidebar-wrapper{
+        padding-top: 10px;
 
+    }
+    .pull-left .single-sidebar-widget, .pull-right .single-sidebar-widget{
+        margin-bottom: 10px !important;
+    }
+    .blog-page .pull-right.has-side-background{
+        padding-top: 10px;
+    }
+    .blog-page .single-blog-post .img-box{
+        height: auto;
+    }
+    .blog-page .single-blog-post .img-box2{
+        height: 0px;
 
+    }
+    .blog-page .single-blog-post{
+        margin-bottom: 0px;
+    }
+    .browse-recipe .has-side-background{
+        padding: 10px 0;
+    }
+    .recent-recipes.recipe-page-one{
+        padding-bottom: 0px;
+    }
+    .recent-recipes{
+        padding-bottom: 0px;
+    }
+    .container h3{
+        margin: 0 0 15px;
+    }
+    .container{
+        padding-bottom: 20px;
+    }
 }
 @media (max-width: 375px) {
 	.nav-holder {width: 25%;}

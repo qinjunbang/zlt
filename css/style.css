@@ -99,7 +99,7 @@ li {
   margin-bottom: 20px;
 }
 .container h3 {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .thm-container {
@@ -859,7 +859,7 @@ li {
    ============================== */
 .recent-recipes {
   background: #F8F8F8;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 
 }
 .recent-recipes.recipe-page-one {
@@ -1233,8 +1233,8 @@ section.city {
    Browse Recipe styles
    ============================== */
 .browse-recipe {
-  background: #F9F9F9;
-  height: 800px;
+  background: #FFF;
+
 }
 .browse-recipe .has-side-background {
   padding: 80px 0;
@@ -2868,6 +2868,12 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
 .blog-page .single-blog-post .img-box {
   display: inline-block;
   width: auto;
+
+}
+.blog-page .single-blog-post .img-box2{
+    display: inline-block;
+    width: auto;
+    height: 500px;
 }
 .blog-page .single-blog-post .img-box:before {
   content: '';
@@ -2973,8 +2979,8 @@ ul.special-checkbox li .input-checker input[type='checkbox'] {
   margin-top: 15px;
 }
 .blog-page .pull-right.has-side-background {
-  padding-left: 15px;
-  padding-right: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
 }
 .blog-page .pull-right.has-side-background:before {
   right: auto;
