@@ -1234,6 +1234,7 @@ section.city {
    ============================== */
 .browse-recipe {
   background: #F9F9F9;
+  height: 800px;
 }
 .browse-recipe .has-side-background {
   padding: 80px 0;

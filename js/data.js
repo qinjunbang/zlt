@@ -172,7 +172,7 @@ var news = [
             '<p class="bizsvr_34" style="margin: 0px; padding: 0px;"><span class="bizsvr_188">据广州地铁介绍，截至5月<span class="bizsvr_189">20</span>日，九号线行车间隔约6分半钟<span class="bizsvr_189">，</span>最大满载率<span class="bizsvr_189">46%</span>，列车准点率达到99.99%，日开行列车293列次，累计开行列车4.2万列次。日均客流量近<span class="bizsvr_189">10</span>万人次，三号线与九号线的日均换乘客流量达<span class="bizsvr_189">3.6</span>万人次，最高日客流量在今年1月<span class="bizsvr_189">1</span>日，超过了19万人次。全线工作日的客流高峰期集中在上午<span class="bizsvr_189">7</span>点至<span class="bizsvr_189">8</span>点，而全线客流量前三个车站分别是：高增站3.7万人次、花都广场站<span class="bizsvr_189">1.4</span>万人次、花城路站<span class="bizsvr_189">1.2</span>万人次。</span></p>',
             '<p class="bizsvr_34" style="margin: 0px; padding: 0px;"><span class="bizsvr_188">广州地铁表示，随着市民对九号线的日渐熟悉，九号线的客流稳步上升，日均客流量从1月份的<span class="bizsvr_189">9</span>万余人次，逐步增加至5月份的<span class="bizsvr_189">10</span>万余人次。考虑新线客流培育的影响预计到下半年日均客运量有望突破<span class="bizsvr_189">11</span>万。</span></p>',
             '</section></section></section></section></section></section></section></div>'].join(""),
-        add_time: "2018-5-31",
+        add_time: "2018-05-31",
         category: 0,
         links: "https://www.zhanglitong.com/mobile/index.php?moduleid=21&itemid=1659"
     },
@@ -266,7 +266,7 @@ var news = [
             "                    <p class=\"tips_global\">受苹果公司新规定影响，微信 iOS 版的赞赏功能被关闭，可通过二维码转账支持公众号。</p>",
             "                </div>",
             "                            </div>"].join(""),
-        add_time: "2017-11-30",
+        add_time: "2018-05-30",
         category: 1,
         links: "https://mp.weixin.qq.com/s/bza6nArMLbZelmS7zkNA_Q"
     },
@@ -286,7 +286,7 @@ var news = [
             "<p>　　掌里通智慧城市平台的推出，颠覆了传统生活的固守、被动的状态，让传统生活模式发生天翻地覆的改变，由被动变为主动，让人们占领生活的主导权。掌里通指挥平台让商家免费进驻，商户在这里可以出售产品、招聘人员，掌里通移动超市与线下大型卖场、超市对接，大型送货车队、专人配送上门服务，让您足不出户就可以享受到智能、轻奢的生活;;政府也可以通过进驻掌里通智慧城市来提高办事的效率，为人们的日常生活带来很多的便利，优化政府的管理和决策。</p>",
             "<p>　　掌里通智慧城市人将会掀开崭新的一页!让我们万众一心，勇往直前，让掌里通平台在广州地区乃至全国迅速落地、开花、结果，用互联网技术建立有序供应可持续的商业环境，成就自己，造福大家!</p>",
             "                    </section>"].join(""),
-        add_time: "2016-12-09",
+        add_time: "2018-06-09",
         category: 0
     },
     {
@@ -381,7 +381,7 @@ var news = [
             '<p class="bizsvr_34" style="margin: 0px; padding: 0px;"><span class="bizsvr_188">据广州地铁介绍，截至5月<span class="bizsvr_189">20</span>日，九号线行车间隔约6分半钟<span class="bizsvr_189">，</span>最大满载率<span class="bizsvr_189">46%</span>，列车准点率达到99.99%，日开行列车293列次，累计开行列车4.2万列次。日均客流量近<span class="bizsvr_189">10</span>万人次，三号线与九号线的日均换乘客流量达<span class="bizsvr_189">3.6</span>万人次，最高日客流量在今年1月<span class="bizsvr_189">1</span>日，超过了19万人次。全线工作日的客流高峰期集中在上午<span class="bizsvr_189">7</span>点至<span class="bizsvr_189">8</span>点，而全线客流量前三个车站分别是：高增站3.7万人次、花都广场站<span class="bizsvr_189">1.4</span>万人次、花城路站<span class="bizsvr_189">1.2</span>万人次。</span></p>',
             '<p class="bizsvr_34" style="margin: 0px; padding: 0px;"><span class="bizsvr_188">广州地铁表示，随着市民对九号线的日渐熟悉，九号线的客流稳步上升，日均客流量从1月份的<span class="bizsvr_189">9</span>万余人次，逐步增加至5月份的<span class="bizsvr_189">10</span>万余人次。考虑新线客流培育的影响预计到下半年日均客运量有望突破<span class="bizsvr_189">11</span>万。</span></p>',
             '</section></section></section></section></section></section></section></div>'].join(""),
-        add_time: "2018-5-31",
+        add_time: "2018-06-31",
         category: 2,
         links: "https://www.zhanglitong.com/mobile/index.php?moduleid=21&itemid=1659"
     },
@@ -424,6 +424,7 @@ var news = [
         category: 3,
         links: "https://3g.163.com/news/article/D4DHJQS400018AOP.html#adaptation=pc"
     },
+
 
 ];
 

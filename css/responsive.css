@@ -75,6 +75,10 @@
 		margin-bottom: 20px;
         text-align:center;
 	}
+	.footer-widget img{
+		height: 150px;
+		width: 150px;
+	}
     .footer-widget .link-list {
         width: 100%;
         float: inherit;
@@ -227,7 +231,7 @@
 	.plupload_wrapper {min-width: 100%;}
 	.contact-form button {float: none !important;}
 	.sy-box .img-box img {
-		width: 50%;
+		width: 20%;
 		margin: 0 auto;
 	}
 	.sy-box .author {
@@ -465,6 +469,7 @@
         margin-left: -20px;
         border:none;
     }
+
     /*section.city{*/
         /*background: url('../images/slider/Booking8.jpg') no-repeat;*/
         /*background-size:100% 100%;*/
