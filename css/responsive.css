@@ -543,10 +543,20 @@
 	}
 	.footer-widget .link-list a{
 		line-height: 30px;
-	}
+        font-size:9px;
+    }
 	.sec-padding{
 		padding: 20px 0;
 	}
+    .footer-widget .title{
+        margin-bottom: 10px;
+    }
+    .footer-widget{
+        margin-bottom: 15px;
+    }
+    .footer-widget .title h3 span{
+        font-size:14px ;
+    }
 
 
 }
