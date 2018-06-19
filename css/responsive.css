@@ -520,8 +520,35 @@
         margin: 0 0 15px;
     }
     .container{
-        padding-bottom: 20px;
+		padding-bottom: 10px;
+		padding-top: 20px;
     }
+	.company-img {
+		width: 180px;
+		height: 150px;
+		margin:auto;
+	}
+	.company-text{
+		margin-top: 0px;
+	}
+	.single-recent-recipes{
+		margin-bottom: 0px;
+	}
+	.single-recent-recipes .top-meta .author h2 {
+		/*color: #AEAEAE;*/
+		font-size: 14px;
+	}
+	.single-recent-recipes .top-meta .author p{
+		font-size: 9px;
+	}
+	.footer-widget .link-list a{
+		line-height: 30px;
+	}
+	.sec-padding{
+		padding: 20px 0;
+	}
+
+
 }
 @media (max-width: 375px) {
 	.nav-holder {width: 25%;}
